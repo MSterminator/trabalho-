@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+  Scanner leia = new Scanner(System.in);
+    System.out.println("Digite um valor: ");
+    int n = leia.nextInt();
+    for (int i = 1; i <= 50 ; i++){
+         int valor = i + n;     
+      System.out.println(valor);
+
+     leia.close();  
+    }
+  }
+}
